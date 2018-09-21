@@ -1,0 +1,46 @@
+/* =====================
+    BASE STYLES
+======================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+span {
+  cursor: pointer;
+}
+
+.container {
+  width: 98%;
+  margin: auto;
+}
+
+.caption {
+  width: 90%;
+  margin: 25px auto;
+}
+
+/* =====================
+     MEDIA QUERIES
+======================= */
+
+@media (min-width: 768px) {
+
+  .container {
+    width: 70%;
+  }
+
+  .caption {
+    width: 100%;
+  }
+
+  p {
+    line-height: 170%;
+  }
+}
